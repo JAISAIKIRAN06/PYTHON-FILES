@@ -94,7 +94,7 @@ print("Coefficients = ", theta[1:])
 plt.plot(error_list)
 plt.xlabel("Number of iterations")
 plt.ylabel("Cost")
-plt.show()
+plt.show()s
 # predicting output for X_test
 y_pred = hypothesis(X_test, theta)
 plt.scatter(X_test[:, 1], y_test[:, ], marker='.')
